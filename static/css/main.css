@@ -25,7 +25,7 @@
 }
 
 .container{
-	border: 1px solid black;
+
 }
 
 .navbar-brand{
@@ -58,9 +58,8 @@ a{
 display: flex;
 justify-content: space-between;
 }
-.img-fluid{
-   width: 500p
-   border: 1px solid black;
+.imge{
+   margin-left: 60px;
 }
 
 .s1-ontainer{
@@ -222,21 +221,30 @@ form textarea{
 .cust:hover {
   color: #ffc200;
 }
+.ratingss{
+	display: flex;
+	justify-content: space-between;
+}
 
+.rating2{
+     margin-right: 50px;
+}
 
+.checked {
+  color: orange;
+}
 
+.accordion-header{
+  font-size: 18px;
+}
 
 #me {
     width: 80%;
     filter: drop-shadow(0 0 0.45rem grey);
 }
 
-
-
-
-
-
-
-
-
-{% static 'images/project/eco.png' %
+@media screen and (max-width: 992px){
+.accordion-header{
+  font-size: 13px;
+}
+}
